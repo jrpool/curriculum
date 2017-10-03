@@ -10,9 +10,9 @@ echo 3233 > ~/.mehserve/curriculum.learnersguild
 mehserve run
 ```
 
-#### Set up and run [IDM](https://github.com/LearnersGuild/idm/)
+#### If you have not already, set up and run [IDM](https://github.com/LearnersGuild/idm/)
 
-#### Set up and run [Echo](https://github.com/LearnersGuild/echo/)
+#### If you have not already, set up and run [Echo](https://github.com/LearnersGuild/echo/)
 
 #### Set up repo
 
