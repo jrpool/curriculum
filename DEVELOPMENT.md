@@ -51,3 +51,9 @@ npm run db:migrate
 ```sh
 npm run dev
 ```
+
+#### Visit the server in your browser and (if necessary) sign in with Github:
+
+http://curriculum.learnersguild.dev
+
+The curriculum application should work, with the exception of the Users, Lectures, and Digest tabs.
