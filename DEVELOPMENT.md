@@ -4,17 +4,17 @@
 
 Install and run Node v8.1.2
 
-#### Setup and run [mehserve](https://github.com/timecounts/mehserve)
+#### Set up and run [mehserve](https://github.com/timecounts/mehserve)
 ```
 echo 3233 > ~/.mehserve/curriculum.learnersguild
 mehserve run
 ```
 
-#### Setup and run [IDM](https://github.com/LearnersGuild/idm/)
+#### Set up and run [IDM](https://github.com/LearnersGuild/idm/)
 
-#### Setup and run [Echo](https://github.com/LearnersGuild/echo/)
+#### Set up and run [Echo](https://github.com/LearnersGuild/echo/)
 
-#### Setup repo
+#### Set up repo
 
 First, fork and clone the curriculum repository.
 
@@ -39,7 +39,7 @@ LOG_SQL_QUERIES=1
 
 _NOTE: you can set `DISABLE_IDM=1` to disable authentication to IDM_
 
-#### Setup the Postgresql Database
+#### Set up the Postgresql Database
 
 ```sh
 createdb lg-curriculum
