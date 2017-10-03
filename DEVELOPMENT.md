@@ -35,9 +35,9 @@ IDM_BASE_URL=http://idm.learnersguild.dev
 ECHO_BASE_URL=http://echo.learnersguild.dev
 JWT_PUBLIC_KEY="<get from .env.development file in your IDM directory>"
 LOG_SQL_QUERIES=1
+# Uncomment the next line if you want to disable authentication to IDM.
+# DISABLE_IDM=1
 ```
-
-_NOTE: you can set `DISABLE_IDM=1` to disable authentication to IDM_
 
 #### Set up the Postgresql Database
 
