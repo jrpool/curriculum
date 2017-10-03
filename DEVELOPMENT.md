@@ -26,14 +26,14 @@ npm install
 
 #### Creating your `.env` file
 
-create a `.env` file like this:
+Create a `.env` file like this (making the substitution described in `<…>`):
 
 ```
 PORT=3233
 DATABASE_URL=postgres://localhost:5432/lg-curriculum
 IDM_BASE_URL=http://idm.learnersguild.dev
 ECHO_BASE_URL=http://echo.learnersguild.dev
-JWT_PUBLIC_KEY="SEE IDM SETUP"
+JWT_PUBLIC_KEY="<get from .env.development file in your IDM directory>"
 LOG_SQL_QUERIES=1
 ```
 
