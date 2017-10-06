@@ -20,13 +20,13 @@ const setSkillCheck = ({user_id, label, checked, referrer}) =>
     .then(() => {
       if (checked) {
         return knex
-          .insert({user_id, label, occurred_at: knex.fn.now()})
+          .insert({user_id, label, updated_at: knex.fn.now()})
           .into('skill_checks')
       } else {
-          return knex('skill_checks')
-            .where('user_id', '=', user_id)
-            .andWhere('label', '=', label)
-            .del()
+        return knex('skill_checks')
+          .where('user_id', '=', user_id)
+          .andWhere('label', '=', label)
+          .del()
       }
     })
 
