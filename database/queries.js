@@ -16,7 +16,7 @@ const getCheckLogsForUsers = userIds => {
   return knex
     .select('*')
     .from('event_logs')
-    .where('type', 'check')
+    .where('type', 'skill_check')
     .whereIn('user_id', userIds)
     .orderBy('occurred_at', 'asc')
     .then(checkLogs => {
