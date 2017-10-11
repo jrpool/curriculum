@@ -28,7 +28,11 @@ Some examples of projects you may work on:
 - Ghost: https://github.com/tryghost/ghost
 - Free Code Camp: https://github.com/freeCodeCamp/freeCodeCamp
 - React Toolbox: https://github.com/react-toolbox/react-toolbox
+- Habitica: https://github.com/HabitRPG/habitica
+- Request: https://github.com/request/request
+- material-components-web: https://github.com/material-components/material-components-web
 - LOS: echo, idm, curriculum
+
 
 Guides to finding external projects include:
 
@@ -36,7 +40,11 @@ Guides to finding external projects include:
 - [CodeMontage](https://www.codemontage.com/projects?tags=JavaScript)
 - [CodeTriage](https://www.codetriage.com/?language=JavaScript)
 - [Bountysource](https://www.bountysource.com/bounties/search?direction=desc&order=bounty_total&languages=9&trackers=&per_page=50&page=1)
+- [Awesome First PR Opportunities](https://github.com/MunGell/awesome-for-beginners)
 - [Open source beginner bugs](https://gist.github.com/nicknisi/9216e06d5ae972a3ee07)
+- [Open first-timers-only issues](https://github.com/search?l=JavaScript&q=label%3Afirst-timers-only+is%3Aopen&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93
+)
+- [Up for Grabs](http://up-for-grabs.net/#/tags/javascript)
 
 Work on the Guild's own software is tracked as a [Github project](https://github.com/orgs/LearnersGuild/projects/2). Join this project when invited. Also join the `#phase-4` Slack channel.
 
@@ -62,6 +70,11 @@ The SEPs will inform you of any regular project-management obligations they want
 
 To begin preparing for your work in Phase 4, you should read the following documentation and follow its instructions:
 
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Learning OS software README file](https://github.com/LearnersGuild/learning-os-software)
 - [Learning OS software best practices, global requirements, and architecture](https://github.com/LearnersGuild/learning-os-software/blob/master/SUMMARY.md)
 - [Git Workflow](development-guide.md)
+
+More reading:
+
+- [First Timers Only](https://medium.com/@kentcdodds/first-timers-only-78281ea47455)
