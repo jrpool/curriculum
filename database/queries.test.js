@@ -6,7 +6,7 @@ context('/database/queries.js', function() {
 
   before('create tables in testing database', function() {
     execSync(
-      `psql -d lg-curriculum-test -c 'drop table if exists skill_checks;'`
+      `psql -d lg-curriculum-test -c 'DROP TABLE IF EXISTS skill_checks;'`
     );
     const skill_checksCols = [
       'user_id varchar(255) not null',
@@ -14,10 +14,10 @@ context('/database/queries.js', function() {
       'updated_at timestamptz default now()'
     ];
     execSync(
-      `psql -d lg-curriculum-test -c 'create table skill_checks(${skill_checksCols.join(', ')});'`
+      `psql -d lg-curriculum-test -c 'CREATE TABLE skill_checks(${skill_checksCols.join(', ')});'`
     );
     execSync(
-      `psql -d lg-curriculum-test -c 'drop table if exists event_logs;'`
+      `psql -d lg-curriculum-test -c 'DROP TABLE IF EXISTS event_logs;'`
     );
     const event_logsCols = [
       'user_id varchar(255) not null',
@@ -26,13 +26,13 @@ context('/database/queries.js', function() {
       'metadata jsonb not null'
     ];
     execSync(
-      `psql -d lg-curriculum-test -c 'create table event_logs(${event_logsCols.join(', ')});'`
+      `psql -d lg-curriculum-test -c 'CREATE TABLE event_logs(${event_logsCols.join(', ')});'`
     );
   });
 
   beforeEach('truncate tables', function() {
     execSync(
-      'psql -d lg-curriculum-test -c \'truncate skill_checks, event_logs;\''
+      `psql -d lg-curriculum-test -c 'TRUNCATE skill_checks, event_logs;'`
     );
   });
 
@@ -46,7 +46,7 @@ context('/database/queries.js', function() {
       ];
       const valueList = entries.join(', ');
       execSync(
-        `psql -d lg-curriculum-test -c "insert into skill_checks values ${valueList};"`
+        `psql -d lg-curriculum-test -c "INSERT INTO skill_checks VALUES ${valueList};"`
       );
       return queries
         .getChecksForUserAndLabels(
@@ -77,7 +77,7 @@ context('/database/queries.js', function() {
       ];
       const valueList = entries.join(', ');
       execSync(
-        `psql -d lg-curriculum-test -c "insert into event_logs values ${valueList};"`
+        `psql -d lg-curriculum-test -c "INSERT INTO event_logs VALUES ${valueList};"`
       );
       return queries
         .getCheckLogsForUsers(['userc', 'usera'])
