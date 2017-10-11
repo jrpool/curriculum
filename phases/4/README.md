@@ -21,7 +21,7 @@ In this phase you will learn…
 
 ## Projects
 
-SEPs will choose the projects to be worked on. These may be internally-developed tools, or external projects.
+SEPs may choose the projects to be worked on, or may give you discretion to find projects fitting your interests and learning goals. These may be internally-developed tools, or external projects.
 
 Some examples of projects you may work on:
 
@@ -30,31 +30,38 @@ Some examples of projects you may work on:
 - React Toolbox: https://github.com/react-toolbox/react-toolbox
 - LOS: echo, idm, curriculum
 
-Work is selected by SEPs and tracked via the [Phase 4 Trello board][trello]. Join this board and the `#phase-4` Slack channel.
+Guides to finding external projects include:
+
+- ["Finding a project to contribute to"](https://opensource.guide/how-to-contribute/#finding-a-project-to-contribute-to)
+- [CodeMontage](https://www.codemontage.com/projects?tags=JavaScript)
+- [CodeTriage](https://www.codetriage.com/?language=JavaScript)
+- [Bountysource](https://www.bountysource.com/bounties/search?direction=desc&order=bounty_total&languages=9&trackers=&per_page=50&page=1)
+- [Open source beginner bugs](https://gist.github.com/nicknisi/9216e06d5ae972a3ee07)
+
+Work on the Guild's own software is tracked as a [Github project](https://github.com/orgs/LearnersGuild/projects/2). Join this project when invited. Also join the `#phase-4` Slack channel.
 
 ## Support
 
-In phase 4, learners can expect to be working closely with an SEP throughout the week. In the course of working on an open issue (either a bug fix, feature, or chore), SEPs will support learners in one or more of the following ways:
+In phase 4, learners can expect to be working in a mixture of solo and pair programming, and sometimes apprenticing directly with an SEP. In the course of working on an open issue (a bug fix, feature, or chore), you can expect SEP support in one or more of the following forms:
 
 - Reviewing learners' code thoroughly, offering suggestions and feedback
 - Doing live code reviews for all learners to observe and particpate in
 - Providing guidance and assistance in problem solving via Slack
 - Personally explaining concepts via Slack, video calls, and/or ad hoc whiteboarding sessions
 - Demonstrating advanced problem solving
+- Commenting on learner presentations of their work
 - Sharing resources for solo study
 
 When a learner has a set of changes ready to be submitted to the project maintainers as a pull request, SEPs will also provide live and/or asynchronous code reviews as needed.
 
 ## Tracking
 
-As with phases 1, 2, and 5, weekly (cycle-based) project tracking for learners in phase 4 will happen automatically in the background. The assigned goal will be a generic Phase 4 goal. These projects will have retro surveys, and learners will be expected to set a project artifact.
-
-[trello]: https://trello.com/b/5y3fu6Xj/phase-4
+The SEPs will inform you of any regular project-management obligations they want you to comply with. These may include, for example, setting an artifact, submitting a retrospective survey, participating in a live code review, or presenting your work to the group.
 
 ## Getting Started
 
 To begin preparing for your work in Phase 4, you should read the following documentation and follow its instructions:
 
 - [Learning OS software README file](https://github.com/LearnersGuild/learning-os-software)
-- [Learning OS software best practices, global requirements, and architecture](https://github.com/LearnersGuild/learning-os-software/blob/master/SUMMARY.md) 
+- [Learning OS software best practices, global requirements, and architecture](https://github.com/LearnersGuild/learning-os-software/blob/master/SUMMARY.md)
 - [Git Workflow](development-guide.md)
