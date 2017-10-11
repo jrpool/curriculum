@@ -5,10 +5,8 @@ const getChecksForUserAndLabels = ({userId, labels}) => {
     .select('*')
     .from('skill_checks')
     .where({user_id: userId})
-
   if (labels && labels.length > 0)
     query = query.whereIn('label', labels)
-
   return query.then(hashChecksByLabel)
 }
 
@@ -16,7 +14,7 @@ const getCheckLogsForUsers = userIds => {
   return knex
     .select('*')
     .from('event_logs')
-    .where('type', 'check')
+    .where('type', 'skill_check')
     .whereIn('user_id', userIds)
     .orderBy('occurred_at', 'asc')
     .then(checkLogs => {
@@ -42,5 +40,3 @@ module.exports = {
   getChecksForUserAndLabels,
   getCheckLogsForUsers,
 }
-
-
