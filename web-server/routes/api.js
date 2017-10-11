@@ -29,7 +29,7 @@ module.exports = app => {
       .then(_ => {
         response.json({saved: true})
       })
-      .catch(() => next);
+      .catch(next);
   })
 
   // Error Handler
