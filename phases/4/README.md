@@ -31,6 +31,7 @@ Some examples of projects you may work on:
 - Habitica: https://github.com/HabitRPG/habitica
 - Request: https://github.com/request/request
 - material-components-web: https://github.com/material-components/material-components-web
+- Sandstorm: https://github.com/sandstorm-io/sandstorm/blob/master/CONTRIBUTING.md#what-to-work-on
 - LOS: echo, idm, curriculum
 
 
